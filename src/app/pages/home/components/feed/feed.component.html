@@ -1,9 +1,12 @@
 <div *ngIf="feed">
-  <div *ngFor="let post of feed.posts">
-    <app-post [post]="post"></app-post>
-  </div>
+  <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+
+  <app-post *ngFor="let post of feed.posts" [post]="post"></app-post>
 </div>
 
-<div *ngIf="!feed">
-  Cargando
+<div *ngIf="!feed" class="feed-spinner">
+  <ion-spinner name="crescent"></ion-spinner>
+  <p>Cargando feed...</p>
 </div>

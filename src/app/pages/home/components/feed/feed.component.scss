@@ -1,0 +1,24 @@
+.feed-spinner {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    padding-top: 24px;
+
+    ion-spinner {
+        width: 50px;
+        height: 50px;
+    }
+
+    p {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+:root {
+    --ion-safe-area-top: 20px;
+    --ion-safe-area-bottom: 22px;
+}
