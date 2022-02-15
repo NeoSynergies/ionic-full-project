@@ -12,6 +12,17 @@
                     "name": "Joan Pol Cosp",
                     "username": "joanpolcg",
                     "profilepic": "https://picsum.photos/id/100/100/100"
+                },
+                "social": {
+                    "likes": 23,
+                    "comments": [
+                        {
+                            "id": "hji24b35ij43iu5",
+                            "userId": "ijh345i6oun56u",
+                            "username": "holaquetal22",
+                            "text": "Hola que tal como estais todos"
+                        }
+                    ]
                 }
             },
             {
@@ -25,6 +36,17 @@
                     "name": "Joan Pol Cosp",
                     "username": "joanpolcg",
                     "profilepic": "https://picsum.photos/id/100/100/100"
+                },
+                "social": {
+                    "likes": 5,
+                    "comments": [
+                        {
+                            "id": "hji24b35ij43iu5",
+                            "userId": "ijh345i6oun56u",
+                            "username": "holaquetal22",
+                            "text": "Hola que tal como estais todos"
+                        }
+                    ]
                 }
             },
             {
@@ -38,6 +60,17 @@
                     "name": "Carlos Martinez",
                     "username": "cmartinez22",
                     "profilepic": "https://picsum.photos/id/99/100/100"
+                },
+                "social": {
+                    "likes": 11,
+                    "comments": [
+                        {
+                            "id": "hji24b35ij43iu5",
+                            "userId": "ijh345i6oun56u",
+                            "username": "holaquetal22",
+                            "text": "Hola que tal como estais todos"
+                        }
+                    ]
                 }
             },
             {
@@ -51,6 +84,23 @@
                     "name": "Carlos Martinez",
                     "username": "cmartinez22",
                     "profilepic": "https://picsum.photos/id/99/100/100"
+                },
+                "social": {
+                    "likes": 3,
+                    "comments": [
+                        {
+                            "id": "hji24b35ij43iu5",
+                            "userId": "ijh345i6oun56u",
+                            "username": "holaquetal22",
+                            "text": "Hola que tal como estais todos"
+                        },
+                        {
+                            "id": "hji24b35ij43iu5",
+                            "userId": "23v345v4v534",
+                            "username": "holaquetal223333",
+                            "text": "Buenas como vais"
+                        }
+                    ]
                 }
             },
             {
@@ -64,6 +114,12 @@
                     "name": "Rafa Moreno",
                     "username": "rafamorenop",
                     "profilepic": "https://picsum.photos/id/98/100/100"
+                },
+                "social": {
+                    "likes": 66,
+                    "comments": [
+                        
+                    ]
                 }
             }
         ]

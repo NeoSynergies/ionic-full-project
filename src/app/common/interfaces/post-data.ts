@@ -1,3 +1,4 @@
+import { PostSocial } from "./post-social";
 import { User } from "./user";
 
 export interface PostData {
@@ -7,4 +8,5 @@ export interface PostData {
     description: string;
     userId: string;
     userData: User;
+    social: PostSocial;
 }
