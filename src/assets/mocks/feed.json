@@ -6,35 +6,65 @@
                 "image": "https://picsum.photos/id/238/200/200",
                 "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
                 "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam praesentium sequi consequuntur reprehenderit quasi. Illo eius tenetur repellat optio. Possimus illo tempora laboriosam odit error aut, delectus veritatis odio saepe!",
-                "userId": "asdf4t4g4"
+                "userId": "asdf4t4g4",
+                "userData": {
+                    "id": "asdf4t4g4",
+                    "name": "Joan Pol Cosp",
+                    "username": "joanpolcg",
+                    "profilepic": "https://picsum.photos/id/100/100/100"
+                }
             },
             {
                 "id": "l7k8l7k8lk7lk8",
                 "image": "https://picsum.photos/id/232/200/200",
                 "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
                 "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam praesentium sequi consequuntur reprehenderit quasi. Illo eius tenetur repellat optio. Possimus illo tempora laboriosam odit error aut, delectus veritatis odio saepe!",
-                "userId": "asdf4t4g4"
+                "userId": "asdf4t4g4",
+                "userData": {
+                    "id": "asdf4t4g4",
+                    "name": "Joan Pol Cosp",
+                    "username": "joanpolcg",
+                    "profilepic": "https://picsum.photos/id/100/100/100"
+                }
             },
             {
                 "id": "scd3dxw4rdx",
                 "image": "https://picsum.photos/id/231/200/200",
                 "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
                 "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam praesentium sequi consequuntur reprehenderit quasi. Illo eius tenetur repellat optio. Possimus illo tempora laboriosam odit error aut, delectus veritatis odio saepe!",
-                "userId": "67878m78"
+                "userId": "67878m78",
+                "userData": {
+                    "id": "67878m78",
+                    "name": "Carlos Martinez",
+                    "username": "cmartinez22",
+                    "profilepic": "https://picsum.photos/id/99/100/100"
+                }
             },
             {
                 "id": "67kj56u7",
                 "image": "https://picsum.photos/id/230/200/200",
                 "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
                 "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam praesentium sequi consequuntur reprehenderit quasi. Illo eius tenetur repellat optio. Possimus illo tempora laboriosam odit error aut, delectus veritatis odio saepe!",
-                "userId": "67878m78"
+                "userId": "67878m78",
+                "userData": {
+                    "id": "67878m78",
+                    "name": "Carlos Martinez",
+                    "username": "cmartinez22",
+                    "profilepic": "https://picsum.photos/id/99/100/100"
+                }
             },
             {
                 "id": "g5g5g55g",
                 "image": "https://picsum.photos/id/229/200/200",
                 "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
                 "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam praesentium sequi consequuntur reprehenderit quasi. Illo eius tenetur repellat optio. Possimus illo tempora laboriosam odit error aut, delectus veritatis odio saepe!",
-                "userId": "78m7m7m8"
+                "userId": "78m7m7m8",
+                "userData": {
+                    "id": "78m7m7m8",
+                    "name": "Rafa Moreno",
+                    "username": "rafamorenop",
+                    "profilepic": "https://picsum.photos/id/98/100/100"
+                }
             }
         ]
     }

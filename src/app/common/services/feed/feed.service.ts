@@ -15,24 +15,10 @@ export class FeedService {
   ) { }
 
   public getFeed(): Observable<Feed> {
-    return combineLatest([this.httpService.callService("get-feed"), this.httpService.callService("get-users")])
+    return this.httpService.callService("get-feed")
       .pipe(
-        map(results => {
-          const postsWithUsers = results[0].data.posts.map(post => {
-            const postWithUser: PostData = post;
-
-            results[1].data.users.map(user => {
-              if (user.id === post.userId) {
-                postWithUser.userData = user;
-              }
-            });
-
-            return postWithUser;
-          });
-
-          return {
-            posts: postsWithUsers
-          };
+        map((feedData: any) => {
+          return feedData.data;
         })
       );
   }
