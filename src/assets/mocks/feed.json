@@ -1,9 +1,16 @@
 {
-    "data": [
-        {
-            "image": "https://via.placeholder.com/300.png/09f/fff",
-            "title": "Mis vacaciones",
-            "description": "Qué guay!!!!"
-        }
-    ]
+    "data": {
+        "posts": [
+            {
+                "image": "https://picsum.photos/id/238/200/200",
+                "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam praesentium sequi consequuntur reprehenderit quasi. Illo eius tenetur repellat optio. Possimus illo tempora laboriosam odit error aut, delectus veritatis odio saepe!"
+            },
+            {
+                "image": "https://picsum.photos/id/232/200/200",
+                "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam praesentium sequi consequuntur reprehenderit quasi. Illo eius tenetur repellat optio. Possimus illo tempora laboriosam odit error aut, delectus veritatis odio saepe!"
+            }
+        ]
+    }
 }

@@ -1,0 +1,9 @@
+<div *ngIf="feed">
+  <div *ngFor="let post of feed.posts">
+    <app-post [post]="post"></app-post>
+  </div>
+</div>
+
+<div *ngIf="!feed">
+  Cargando
+</div>

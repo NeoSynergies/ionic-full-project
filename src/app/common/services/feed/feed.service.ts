@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
 import { Feed } from '../../interfaces/feed';
 import { HttpService } from '../http/http.service';
 
@@ -13,6 +14,9 @@ export class FeedService {
   ) { }
 
   public getFeed(): Observable<Feed> {
-    return this.httpService.callService("get-feed");
+    return this.httpService.callService("get-feed")
+      .pipe(map((feedData: any) => {
+        return feedData.data;
+      }));
   }
 }
