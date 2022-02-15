@@ -31,7 +31,7 @@ export class FeedComponent implements OnInit, OnDestroy {
     this.subscriptions.push(feedSubscription);
   }
 
-  doRefresh(event) {
+  public onRefreshFeed(event) {
     setTimeout(() => {
       this.getFeed();
       event.target.complete();

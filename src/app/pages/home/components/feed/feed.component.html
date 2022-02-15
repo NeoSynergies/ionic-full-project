@@ -1,5 +1,5 @@
 <div *ngIf="feed">
-  <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+  <ion-refresher slot="fixed" (ionRefresh)="onRefreshFeed($event)">
     <ion-refresher-content></ion-refresher-content>
   </ion-refresher>
 
