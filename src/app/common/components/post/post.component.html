@@ -1,6 +1,9 @@
 <ion-card>
   <ion-card-header>
-    <ion-card-subtitle>{{ post.title }}</ion-card-subtitle>
+    <ion-item>
+      <ion-avatar><img [src]="post.userData.profilepic" alt=""></ion-avatar>
+      <ion-label>{{ post.userData.username }}</ion-label>
+    </ion-item>
   </ion-card-header>
   <img [src]="post.image">
   <ion-card-content>
