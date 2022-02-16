@@ -1,4 +1,6 @@
 
 <ion-content class="ion-content-padded-top">
     <app-login-form (onSubmit)="onLogin($event)"></app-login-form>
+    <ion-button (click)=onLogout()>Logout</ion-button>
+    <ion-button (click)=isLoggedIn()>Know</ion-button>
 </ion-content>
