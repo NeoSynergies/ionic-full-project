@@ -5,7 +5,12 @@
 export const environment = {
   production: false,
   mockProvider: true,
-  apiDomain: 'http://localhost:3000'
+  apiDomain: 'http://localhost:3000',
+  auth: {
+    domain: "dev-h-m3agcb.us.auth0.com",
+    clientId: "exqj7fAGDYXROGIJLUHe0vXntVrf423F",
+    redirectUri: window.location.origin
+  }
 };
 
 /*
