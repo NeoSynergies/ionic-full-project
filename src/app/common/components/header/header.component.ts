@@ -12,7 +12,7 @@ export class HeaderComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    this.headerService.headerTitle.next('Home');
+    this.headerService.headerTitle.next('Feed');
   }
 
 }

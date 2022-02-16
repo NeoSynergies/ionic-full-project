@@ -1,0 +1,35 @@
+<form [formGroup]="userLogin" (ngSubmit)="onFormSubmit()">
+  <ion-item>
+    <ion-input placeholder="Your user name" type="text" formControlName="username"></ion-input>
+    <div *ngIf="
+      userLogin.get('username').invalid && 
+      userLogin.get('username').errors && 
+      (userLogin.get('username').dirty || userLogin.get('username').touched)"
+    >
+      <small *ngIf="userLogin.get('username').hasError('required')">
+        An user name is required.
+      </small>
+      <small *ngIf="userLogin.get('username').hasError('minlength')">
+        User name must contain at least {{userLogin.get('username').errors.minlength.requiredLength}} characters.
+      </small>
+    </div>
+  </ion-item>
+  
+  <ion-item>
+    <ion-input placeholder="Your password" type="password" formControlName="password"></ion-input>
+    <div *ngIf="
+      userLogin.get('password').invalid && 
+      userLogin.get('password').errors && 
+      (userLogin.get('password').dirty || userLogin.get('password').touched)"
+    >
+      <small *ngIf="userLogin.get('password').hasError('required')">
+        A password is required.
+      </small>
+      <small *ngIf="userLogin.get('password').hasError('minlength')">
+        Password must contain at least {{userLogin.get('password').errors.minlength.requiredLength}} characters.
+      </small>
+    </div>
+
+  </ion-item>
+  <ion-button [disabled]="userLogin.invalid" type="submit" expand="block">Login</ion-button>
+</form>

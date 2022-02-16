@@ -1,24 +1,9 @@
 {
     "data": {
-        "users": [
-            {
-                "id": "asdf4t4g4",
-                "name": "Joan Pol Cosp",
-                "username": "joanpolcg",
-                "profilepic": "https://picsum.photos/id/100/100/100"
-            },
-            {
-                "id": "67878m78",
-                "name": "Carlos Martinez",
-                "username": "cmartinez22",
-                "profilepic": "https://picsum.photos/id/99/100/100"
-            },
-            {
-                "id": "78m7m7m8",
-                "name": "Rafa Moreno",
-                "username": "rafamorenop",
-                "profilepic": "https://picsum.photos/id/98/100/100"
-            }
-        ]
+        "user": {
+            "id": "km56km5klo6m5l6",
+            "username": "mastercraig",
+            "name": "John Craig"
+        }
     }
 }
