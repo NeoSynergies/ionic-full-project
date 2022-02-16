@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MsalService } from '@azure/msal-angular';
 
 @Component({
   selector: 'app-bottom-toolbar',
@@ -7,8 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BottomToolbarComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private msalService: MsalService
+  ) { }
 
   ngOnInit() {}
 
+  public isLoggedIn() {
+    return this.msalService.instance.getActiveAccount() != null;
+  }
+  
 }

@@ -14,7 +14,8 @@ export class LoginContainerComponent {
 
   constructor(
     private headerService: HeaderService,
-    private msalService: MsalService
+    private msalService: MsalService,
+    private router: Router
   ) { }
 
   ionViewWillEnter() {
@@ -27,7 +28,8 @@ export class LoginContainerComponent {
     
     this.msalService.loginPopup().subscribe((response: AuthenticationResult) => {
       this.msalService.instance.setActiveAccount(response.account);
-    })
+      this.router.navigate(['/home']);
+    });
   }
 
   onLogout() {
