@@ -16,11 +16,6 @@ const routes: Routes = [
     path: 'login',
     loadChildren: () => import('./pages/login/login.module').then( m => m.LoginPageModule)
   },
-  {
-    path: 'search',
-    loadChildren: () => import('./pages/search/search.module').then( m => m.SearchPageModule),
-    canActivate: [MsalAuthGuard]
-  },
 ];
 
 @NgModule({

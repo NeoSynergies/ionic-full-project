@@ -1,12 +1,13 @@
-<div *ngIf="feed">
-  <ion-refresher slot="fixed" (ionRefresh)="onRefreshFeed($event)">
+<div *ngIf="save">
+  <!--<ion-refresher slot="fixed" (ionRefresh)="onRefreshFeed($event)">
     <ion-refresher-content></ion-refresher-content>
-  </ion-refresher>
+  </ion-refresher>-->
+  <ion-searchbar (ionChange)="onSearch($event)"></ion-searchbar>
 
-  <app-post *ngFor="let post of feed.posts" [post]="post"></app-post>
+  <app-post *ngFor="let post of feedSearchResults.posts" [post]="post"></app-post>
 </div>
 
-<div *ngIf="!feed" class="feed-spinner">
+<div *ngIf="!save" class="feed-spinner">
   <ion-spinner name="crescent"></ion-spinner>
   <p>Cargando feed...</p>
 </div>
