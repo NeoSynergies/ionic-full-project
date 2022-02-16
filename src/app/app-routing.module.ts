@@ -16,6 +16,11 @@ const routes: Routes = [
     path: 'login',
     loadChildren: () => import('./pages/login/login.module').then( m => m.LoginPageModule)
   },
+  {
+    path: 'new-post',
+    loadChildren: () => import('./pages/new-post/new-post.module').then( m => m.NewPostPageModule),
+    canActivate: [MsalAuthGuard]
+  },
 ];
 
 @NgModule({

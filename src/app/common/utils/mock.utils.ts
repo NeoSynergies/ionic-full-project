@@ -4,6 +4,7 @@ import { delay, take} from "rxjs/operators";
 import * as Login from 'src/assets/mocks/login.json';
 import * as Feed from 'src/assets/mocks/feed.json';
 import * as Users from 'src/assets/mocks/users.json';
+import { PostData } from "../interfaces/post-data";
 
 @Injectable({
     providedIn: 'root'
